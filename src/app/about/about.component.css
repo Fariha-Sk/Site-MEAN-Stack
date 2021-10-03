@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    text-align: center;
+    object-fit: cover;
+    height:500px;
+}
+  
+  .centered {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+  }
+  
+  .column-left{ float: left; width: 33.333%;text-align: center; }
+.column-right{ float: right; width: 33.333%;text-align: center; }
+.column-center{ display: inline-block; width: 33.333%;text-align: center;line-height: 1.7; }
+
+.history
+{
+  text-align: center;
+  background-color:rgb(255, 249, 251);
+}
+
+.process
+{
+  text-align: center;
+}
+
+.column-left1{ float: left; width: 33.333%;text-align: center;}
+.column-right1{ float: right; width: 33.333%;text-align: center; }
+.column-center1{ display: inline-block; width: 33.333%;text-align: center;line-height: 1.7; }
+
+.overlap{
+  z-index: -1;
+  color: black;
+}
+
